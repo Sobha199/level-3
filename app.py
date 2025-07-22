@@ -24,8 +24,7 @@ if 'submitted_data' not in st.session_state:
 
 # Page 1: Login
 if not st.session_state.logged_in:
-    st.image("s2m-logo.png", width=120)
-    st.markdown("## Login Portal")
+        st.markdown("## Login Portal")
     username = st.text_input("Username", key="username", help="Enter your username")
     password = st.text_input("Password", type="password", key="password", help="Enter your password")
 
